@@ -40,7 +40,7 @@ for ii = 1:iterations
     
     end
     if mod(ii,100)==0
-        sprintf('ÒÑµü´ú%d´Î£¬¹²Ðèµü´ú%d´Î',ii,iterations)
+        sprintf('Now fnished %d times，all %d times',ii,iterations)
     end
 end
 
