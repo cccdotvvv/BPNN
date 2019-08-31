@@ -40,7 +40,7 @@ for ii = 1:iterations
     
     end
     if mod(ii,100)==0
-        sprintf('已迭代%d次，共需迭代%d次',ii,iterations)
+        sprintf('脪脩碌眉麓煤%d麓脦拢卢鹿虏脨猫碌眉麓煤%d麓脦',ii,iterations)
     end
 end
 
