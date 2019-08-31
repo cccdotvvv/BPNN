@@ -1,6 +1,6 @@
 clear all;clc;
 
-x_train = [-3:0.01:3];
+x_train = [-10:0.01:10];
 x_train_size = size(x_train);
 m = x_train_size(2);
 y_train = sin([x_train]);
@@ -44,7 +44,7 @@ for ii = 1:iterations
     end
 end
 
-x_test = -3:0.01:3;
+x_test = -5:0.01:5;
 x_test_size = size(x_test);
 m1 = x_test_size(2);
 y_test = zeros(1,m1);
