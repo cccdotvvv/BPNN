@@ -5,7 +5,7 @@ def sigmoid(x):
 	y = 1/(1+np.exp(1)**(-x))
 	return y
 
-x_train = np.arange(-3,3.01,0.01)
+x_train = np.arange(-10,10.01,0.01)
 m = x_train.size
 y_train = np.sin(x_train)
 
@@ -46,7 +46,7 @@ for ii in range(iterations):
     elif ii==iterations-1:
         print("Finished!")
 
-x_test = np.arange(-3,3.01,0.01)  
+x_test = np.arange(-5,5.01,0.01)  
 m1 = x_test.size  
 y_test = np.sin(x_test)   
 for aa in range(m1):
